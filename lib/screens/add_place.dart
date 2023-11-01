@@ -37,7 +37,7 @@ class _AddPlacesState extends ConsumerState<AddPlaces> {
               ),
               ElevatedButton.icon(
                   onPressed: () {
-                    print(placeInput.text);
+                    // print(placeInput.text);
                   },
                   icon: const Icon(Icons.add),
                   label: const Text("Submit"))
