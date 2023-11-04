@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:favorite_place_app/providers/places_list_provider.dart';
 import 'package:favorite_place_app/widgets/image_input.dart';
+import 'package:favorite_place_app/widgets/location_input.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -52,6 +53,10 @@ class _AddPlacesState extends ConsumerState<AddPlaces> {
                   pickImage = image;
                 },
               ),
+              const SizedBox(
+                height: 12,
+              ),
+              const LocationInput(),
               const SizedBox(
                 height: 12,
               ),
